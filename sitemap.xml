@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://cms.jamilaexim.com/</loc>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/dashboard.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/google-login.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/jebg-login.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/campaign-overview.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/campaign-contactwise-overview.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/contacts-section.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/import-contacts1.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/templates-section.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/template-create.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/campaign-section.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/report-campaign-performance.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/reports-contact-engagement.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/reports-email-activity.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/reports-contacts-health.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/settings-section.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/settings-section2.png</image:loc></image:image>
+    <image:image><image:loc>https://cms.jamilaexim.com/media/settings-subscription.png</image:loc></image:image>
+  </url>
+</urlset>

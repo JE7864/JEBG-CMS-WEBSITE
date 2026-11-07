@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cms.jamilaexim.com/sitemap.xml
