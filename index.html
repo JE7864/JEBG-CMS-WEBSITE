@@ -22,6 +22,17 @@
  .category-controls{padding:10px 13px;gap:8px}
 }
 @media(max-width:380px){.category-slide img{max-height:max(60px,calc(var(--category-fit-height) - 265px))}}
+/* Two category cards per row, with compact viewport-aware screenshots. */
+.category-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.category-slider,.category-slider:last-child:nth-child(odd){width:100%;grid-column:auto;justify-self:stretch}
+.category-description{min-height:36px}
+.category-slide .shot-caption strong{font-size:12px}
+.category-slide .shot-caption>span{font-size:10px}
+.category-controls{gap:9px;padding:11px 15px}
+.slide-selectors{gap:5px}
+.slide-selectors button{width:26px}
+@media(max-width:1000px) and (min-width:701px){.category-controls{gap:7px}.slide-autoplay{min-width:78px;padding:8px;font-size:10px}.slide-arrow{width:30px}.slide-selectors button{width:23px}.slide-counter{font-size:9px}.category-slide .shot-caption{padding:10px 13px}}
+@media(max-width:700px){.category-grid{grid-template-columns:minmax(0,1fr);gap:22px}.category-description{min-height:0}.category-controls{gap:8px}}
 </style></head>
 <body><a class="skip" href="#main">Skip to content</a>
 <header><nav class="shell" aria-label="Main navigation"><a class="brand" href="#home" aria-label="JEBG Campaign Management System home"><span class="mark">JEBG</span><span class="brand-title">CAMPAIGN MANAGEMENT SYSTEM<small>JAMILA EXIM BUSINESS GENIUS</small></span></a><button class="menu" id="menu" aria-expanded="false" aria-controls="navigation" aria-label="Open navigation">☰</button><div class="links" id="navigation"><a href="#features">Features</a><a href="#automation">Automation</a><a href="#insights">Insights</a><a href="#demo">Watch demo</a><a href="#gallery">Gallery</a><a href="#google">Google workspace</a><a href="#pricing">Pricing</a><a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSfg9PNObg01tK5d7p2j1tp_BGJNrR75Ar6O0r7LFMk0tTbiFg/viewform?usp=header" target="_blank" rel="noopener noreferrer">Request JEBG CMS</a></div></nav></header>
