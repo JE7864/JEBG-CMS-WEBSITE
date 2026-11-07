@@ -46,6 +46,16 @@
 .footer-metrics .activity-cell .metric-rate::after{content:'%';font-size:10px;margin-left:1px}
 .activity-cell>small{display:block;margin-top:4px;font-size:9px;line-height:1.4;color:#8eafc3}
 @media(max-width:600px){.footer-metrics{width:100%;margin-top:20px;padding:14px 12px}.activity-grid{gap:14px 7px}.footer-metrics .activity-cell span{font-size:14px}.activity-cell>small{font-size:8px}.activity-heading strong{font-size:10px}.activity-heading small{font-size:8px}}
+/* Full-width website activity strip with all metrics on one row. */
+.footer-metrics{width:100%;margin:22px 0 0;padding:15px 0 0;border:0;border-top:1px solid #28485c;border-radius:0;background:transparent}
+.activity-heading{padding:0;margin:0 0 14px;border:0}
+.activity-grid{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:0;overflow:visible}
+.activity-cell{padding:0 10px}
+.activity-cell+.activity-cell{border-left:1px solid #28485c}
+.footer-metrics .activity-cell span{font-size:15px}
+.activity-cell>small{font-size:9px}
+@media(max-width:1000px){.activity-grid{grid-template-columns:repeat(10,minmax(92px,1fr));overflow-x:auto;padding-bottom:10px;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:#31586d #071622}.activity-cell{padding:0 8px}}
+@media(max-width:600px){.footer-metrics{width:100%;padding:14px 0 0;margin-top:20px}.activity-heading{margin-bottom:12px}.activity-grid{gap:0;grid-template-columns:repeat(10,minmax(88px,1fr))}.footer-metrics .activity-cell span{font-size:14px}.activity-cell>small{font-size:9px}}
 </style></head>
 <body><a class="skip" href="#main">Skip to content</a>
 <header><nav class="shell" aria-label="Main navigation"><a class="brand" href="#home" aria-label="JEBG Campaign Management System home"><span class="mark">JEBG</span><span class="brand-title">CAMPAIGN MANAGEMENT SYSTEM<small>JAMILA EXIM BUSINESS GENIUS</small></span></a><button class="menu" id="menu" aria-expanded="false" aria-controls="navigation" aria-label="Open navigation">☰</button><div class="links" id="navigation"><a href="#features">Features</a><a href="#automation">Automation</a><a href="#insights">Insights</a><a href="#demo">Watch demo</a><a href="#gallery">Gallery</a><a href="#google">Google workspace</a><a href="#pricing">Pricing</a><a class="btn" href="#enquiry">Request JEBG CMS</a></div></nav></header>
